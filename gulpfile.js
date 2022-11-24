@@ -15,6 +15,7 @@ const cleanCSS = require('gulp-clean-css');
 const sass = require('gulp-sass')(require('sass'));
 const sourcemaps = require('gulp-sourcemaps');
 const fileinclude = require('gulp-file-include');
+const gulp = require('gulp');
 const browserSync = require('browser-sync');
 const reload = browserSync.reload;
 
@@ -27,6 +28,15 @@ function includeHTML() {
         }))
         .pipe(dest('./dist'));
 }
+
+// gulp.task('fileinclude', function() {
+//     gulp.src(['layout/**.html'])
+//       .pipe(fileinclude({
+//         prefix: '@@',
+//         basepath: '@file'
+//       }))
+//       .pipe(gulp.dest('dist'));
+//   });
 
 exports.html =  includeHTML;
 
@@ -44,8 +54,6 @@ gulp.task('minify_css', function () {
 
 
 // 2.sass
-
-
 function sassstyle(){ 
     return src('sass/*.scss')
     .pipe(sourcemaps.init())
