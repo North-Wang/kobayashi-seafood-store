@@ -1,5 +1,5 @@
 {
-    "name": "kobayashi" , 
+    "name": "kobayashi",
     "version": "1.0.0",
     "main": "gulpfile.js",
     "scripts": {
@@ -18,7 +18,7 @@
         "url": "https://github.com/sexfat/tgd102test/issues"
     },
     "homepage": "https://github.com/sexfat/tgd102test#readme",
-    "devDependencies": { 
+    "devDependencies": {
         "@babel/core": "^7.18.13",
         "@babel/preset-env": "^7.18.10",
         "browser-sync": "^2.27.10",
@@ -34,7 +34,7 @@
         "gulp-uglify": "^3.0.2",
         "sass": "^1.54.8"
     },
-    "dependencies": { 
+    "dependencies": {
         "twzipcode-vue": "^2.2.2",
         "vue-fullpage.js": "^0.2.7"
     },
