@@ -1,4 +1,22 @@
-{
+{ 
+  "name": "kobayashi",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "安裝套件": "npm install",
+    "開發": "gulp",
+    "上線": "gulp online"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/North-Wang/kobayashi-seafood-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/North-Wang/kobayashi-seafood-store/issues"
+  },
+  "homepage": "https://github.com/North-Wang/kobayashi-seafood-store#readme",
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
@@ -23,21 +41,5 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-minify-html": "^1.0.6"
   },
-  "name": "gulp",
-  "version": "1.0.0",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/North-Wang/kobayashi-seafood-store.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/North-Wang/kobayashi-seafood-store/issues"
-  },
-  "homepage": "https://github.com/North-Wang/kobayashi-seafood-store#readme",
   "description": ""
 }
